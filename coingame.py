@@ -1,4 +1,7 @@
-# Two players, who we will call Alice and Bob, take turns removing one of the coins from either end of the remaining line of coins. That is, when it is a player’s turn, he or she removes the coin at the left or right end of the line of coins and adds that coin to his or her collection. The player who removes a set of coins with larger total value than the other player wins, where we assume that both Alice and Bob know the value of each coin.
+# Two players, who we will call Alice and Bob, take turns removing one of the coins from either end of the remaining line 
+# of coins. That is, when it is a player’s turn, he or she removes the coin at the left or right end of the line of coins 
+# and adds that coin to his or her collection. The player who removes a set of coins with larger total value than the other 
+# player wins, where we assume that both Alice and Bob know the value of each coin.
 
 # coins []  =  { 6, 9, 1, 2, 16, 8}
 
