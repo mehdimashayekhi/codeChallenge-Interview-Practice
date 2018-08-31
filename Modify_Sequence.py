@@ -44,11 +44,11 @@ def modifySequence(arr):
 #         return max(dp)
 		# binary search version O(nlogn)
 
-		#tails is an array storing the smallest tail of all increasing subsequences with length i+1 in tails[i].
+	#tails is an array storing the smallest tail of all increasing subsequences with length i+1 in tails[i].
         tails = [0] * len(nums)
         size = 0
         #(1) if x is larger than all tails, append it, increase the size by 1
-		#(2) if tails[i-1] < x <= tails[i], update tails[i]
+	#(2) if tails[i-1] < x <= tails[i], update tails[i]
         for x in nums:
             i, j = 0, size
             while i != j:
